@@ -1,0 +1,16 @@
+.navbarWrapper{
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarWrapper a{
+    font-size: 20px;
+    color: #fff!important;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.active{
+    color: 'red'
+}
