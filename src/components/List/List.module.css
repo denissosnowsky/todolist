@@ -1,0 +1,11 @@
+.listWrapper {
+  display: flex;
+  gap: 30px;
+  width: 70%;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 40px;
+  padding-bottom: 10px;
+}

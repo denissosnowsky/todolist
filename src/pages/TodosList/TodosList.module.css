@@ -1,0 +1,17 @@
+.noText {
+  width: 100%;
+  font-size: 30px;
+  color: #dc3545;
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

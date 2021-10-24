@@ -1,0 +1,18 @@
+.wrapper {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.label {
+  width: 100% !important;
+}
+
+.buttonsWrapper {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}

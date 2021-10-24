@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.wrapper button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 18px;
+  padding: 10px;
+  color: #007bff;
+  position: relative;
+}
+
+.wrapper button::after {
+  position: absolute;
+  top: 0px;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #aaa;
+  right: 0px;
+}
+
+.wrapper button:last-of-type::after {
+  width: 0px;
+}
+
+.activeBtn {
+  background-color: #007bff !important;
+  color: white !important;
+}
