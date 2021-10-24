@@ -1,4 +1,4 @@
-# Getting Started with Banks App
+# Getting Started with Todo App
 
 ## Step 1
 
